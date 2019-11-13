@@ -1,0 +1,108 @@
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .navbar-nav{
+        text-align: center;
+        padding-top: 30px
+    }
+    .navbar .form{
+        display: none
+    }
+    .navbar .form2{
+        display: block;
+    }
+    .navbar-nav .nav-item{
+        background: #e163a0;
+        color: #fff;
+        padding-top: 20px
+    }
+    .navbar-nav .nav-item .nav-link{
+        color: #fff!important
+    }
+    .navbar-nav .nav-item .nav-link:hover{
+        background: #fff;
+        color: #000!important;
+        transform: scale(1.5)
+    }
+    /* Start Product---------------------------------- */
+    .product .box:hover{
+        transform: scale(1)
+    }
+    /* Start Video Section-------------------------- */
+    .video .BG{
+        margin-top: -0px;
+        margin-right: 0px;
+    }
+    .video .vedio-text{
+        margin-top: 30px;
+        padding: 20px;
+        color: #fff;
+    }
+    .video .vedio-text a {
+        padding: 10px 10px;
+    }
+    /* Start Subscribe-------------------------------- */
+    .subscribe{
+        background-size: cover
+    }
+    .subscribe .form input{
+        width: 300px;
+        display: inline-block
+    }
+    .subscribe .box a img{
+        height: 43px;
+    }
+    
+}
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-nav{
+        text-align: center;
+        padding-top: 30px;
+    }
+    .navbar .navbar-brand {
+        left: 55%
+    }
+    .navbar .form{
+        display: none;
+    }
+    .navbar-nav .nav-item{
+        background: #e163a0;
+        color: #fff;
+        padding-top: 20px
+    }
+    .navbar-nav .nav-item .nav-link{
+        color: #fff!important
+    }
+    .navbar-nav .nav-item .nav-link:hover{
+        background: #fff;
+        color: #000!important;
+        transform: scale(1.5)
+    }
+    .navbar .form2{
+        display: block
+    }
+    /* Start Video------------------------------ */
+    .video .BG{
+        margin-top: -80px;
+        margin-right: 0px;
+    }
+}
+@media (min-width: 992px ) and (max-width: 1024px) {
+    .navbar .navbar-brand {
+        left: 55%
+    }
+    .navbar .form{
+        display: none
+    }
+    /* Start Video-------------------------- */
+    .video .BG{
+        margin-top: 0px;
+        margin-right: 0px;
+        width: 500px;
+        height: 500px;
+    }
+}
